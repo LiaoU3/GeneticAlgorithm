@@ -3,6 +3,7 @@
 This project implements a Genetic Algorithm (GA) framework in Python. The algorithm simulates the process of natural selection to solve optimization problems, aiming to find the minimum or maximum value of a target function (In this demonstration, we aim to find the minimum value). The implementation includes core GA operations like selection, crossover, and mutation, with support for binary-encoded solutions.
 
 ![alt text](https://th-thumbnailer.cdn-si-edu.com/4oi5D7H-PXFSVzuCOGn2iMgwM2M=/800x450/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer/consequences-of-evolution-631.jpg)
+
 ---
 
 ## Overview of Genetic Algorithms
@@ -86,7 +87,7 @@ Genetic Algorithms are inspired by [Darwin's theory](https://en.wikipedia.org/wi
 
    4. **Improvement Suggestion**:
       - We could preserve elites (top individuals) forcefully to preserve excellent genes. This ensures that the best solutions are not lost in the evolutionary process.
-        
+
 4. **Crossover**: Combines two parent solutions to create offspring, introducing variation. There are a few methods.
 
    1. **Single-Point Crossover**:
@@ -103,7 +104,7 @@ Genetic Algorithms are inspired by [Darwin's theory](https://en.wikipedia.org/wi
         - Offspring 2: `110010` (`110` from Parent2, `010` from Parent1)
 ![alt text](https://media.geeksforgeeks.org/wp-content/uploads/20190620121215/singleCrossover-2.png)
 
-   2. **Two-Point Crossover**:
+   1. **Two-Point Crossover**:
       - **Description**: In Two-Point Crossover, two points are selected on the chromosome, and the segments between those two points are swapped between the parents.
       - **Process**:
         1. Randomly select two points along the chromosome.
@@ -116,6 +117,7 @@ Genetic Algorithms are inspired by [Darwin's theory](https://en.wikipedia.org/wi
         - Offspring 1: `111011)` (`11` from Parent2, `10` from Parent1, `10` from Parent2)
         - Offspring 2: `100010)` (`10` from Parent1, `00` from Parent2, `10` from Parent1)
     ![alt text](https://media.geeksforgeeks.org/wp-content/uploads/20190620121313/twopointCrossover-2.png)
+
 5. **Mutation**: Randomly alters parts of a solution to maintain genetic diversity. There are several ways:
 
    1. **Bit-flip Mutation**:
@@ -131,9 +133,9 @@ Genetic Algorithms are inspired by [Darwin's theory](https://en.wikipedia.org/wi
 
    3. **Insertion Mutation**:
       - **Description**: Randomly selects one gene in the sequence and moves it to a different position. This is also used in permutation problems.
-      - **Example**: For a sequence `[1, 3, 6, 2, 4, 5, 7]`, if the fourth element (`2`) is moved to the second position, the new sequence becomes `[1, 2, 3, 6, 4, 5, 7]`.
+      - **Example**: For a sequence `[1, 2, 3, 4, 5, 6, 7, 8]`, if the third element (`3`) is moved to the sixth position, the new sequence becomes `[1, 2, 4, 5, 6, 3, 7, 8]`.
 
-        ![alt text](https://www.researchgate.net/publication/359510491/figure/fig5/AS:1138604680200197@1648475918048/An-example-of-insertion-mutation.jpg)
+        ![alt text](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYiOhwHINpaquBXtL1bqLkUAyA45j3OlSOLg&s)
 
 ---
 

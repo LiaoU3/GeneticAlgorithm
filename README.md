@@ -131,9 +131,9 @@ Genetic Algorithms are inspired by [Darwin's theory](https://en.wikipedia.org/wi
 
    3. **Insertion Mutation**:
       - **Description**: Randomly selects one gene in the sequence and moves it to a different position. This is also used in permutation problems.
-      - **Example**: For a sequence `[1, 4, 2, 5, 3, 7, 6]`, if the fifth element (`3`) is moved to the second position, the new sequence becomes `[1, 3, 4, 2, 5, 7, 6]`.
+      - **Example**: For a sequence `[1, 3, 6, 2, 4, 5, 7]`, if the fourth element (`2`) is moved to the second position, the new sequence becomes `[1, 2, 3, 6, 4, 5, 7]`.
 
-        ![alt text](https://www.researchgate.net/publication/305284700/figure/fig2/AS:661742036209665@1534783004407/Displacement-Mutation-d-Insertion-mutation-Inversion-mutation-Insertion-is-a-twostep.png)
+        ![alt text](https://www.researchgate.net/publication/359510491/figure/fig5/AS:1138604680200197@1648475918048/An-example-of-insertion-mutation.jpg)
 
 ---
 

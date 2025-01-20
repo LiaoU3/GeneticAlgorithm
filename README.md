@@ -126,12 +126,14 @@ Genetic Algorithms are inspired by [Darwin's theory](https://en.wikipedia.org/wi
    2. **Swap Mutation**:
       - **Description**: Randomly selects two positions in the DNA sequence and swaps their values. This is commonly used in permutation-based problems like the Traveling Salesman Problem (TSP).
       - **Example**: For a sequence `[9, 2, 7, 5, 4, 6, 3, 1, 8]`, swapping the thirth and seventh positions results in `[9, 2, 3, 5, 4, 6, 7, 1, 8]`.
+
         ![alt text](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIW5QAjhREtsdyY1JXTDL1KntjryYlvKUocQ&s)
 
    3. **Insertion Mutation**:
       - **Description**: Randomly selects one gene in the sequence and moves it to a different position. This is also used in permutation problems.
       - **Example**: For a sequence `[1, 4, 2, 5, 3, 7, 6]`, if the fifth element (`3`) is moved to the second position, the new sequence becomes `[1, 3, 4, 2, 5, 7, 6]`.
-    ![alt text](https://www.researchgate.net/publication/305284700/figure/fig2/AS:661742036209665@1534783004407/Displacement-Mutation-d-Insertion-mutation-Inversion-mutation-Insertion-is-a-twostep.png)
+
+        ![alt text](https://www.researchgate.net/publication/305284700/figure/fig2/AS:661742036209665@1534783004407/Displacement-Mutation-d-Insertion-mutation-Inversion-mutation-Insertion-is-a-twostep.png)
 
 ---
 

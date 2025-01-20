@@ -145,22 +145,26 @@ In this demonstration, we apply the **Rastrigin Function** as an optimization pr
 
 In the 2D case, the algorithm quickly converged to the optimal solution within 10 iterations. Below are the results:
 
-- **Evolution of Population (2D)**: 
+- **Evolution of Population (2D)**:
   The GIF below shows how the population evolves towards the optimal solution over time.
-  ![2D Iteration](results/2d_iteration.gif)
-  
+
+   ![2D Iteration](results/2d_iteration.gif)
+
 - **Fitness Convergence (2D)**:
   The graph below illustrates the change in the best and mean fitness values throughout the iterations.
-  ![2D Fitness](results/2d_fitness.png)
+
+   ![2D Fitness](results/2d_fitness.png)
 
 ### 3D Problem
 
 The 3D problem is more complex, and the algorithm found a local optimum in the 26th iteration. It reached the best solution after 150 iterations. Below are the results:
 
-- **Evolution of Population (3D)**: 
+- **Evolution of Population (3D)**:
   The GIF below shows the progression of the population in the 3D space as it converges to the optimal solution.
-  ![3D Iteration](results/3d_iteration.gif)
+
+    ![3D Iteration](results/3d_iteration.gif)
 
 - **Fitness Convergence (3D)**:
   The graph below demonstrates how the best and mean fitness values evolve over time.
+
   ![3D Fitness](results/3d_fitness.png)
